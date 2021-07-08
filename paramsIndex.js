@@ -9,6 +9,7 @@ app.get('/as/:id',(req,res)=>{
         if(req.params.id==result.id){
             return result
         }
+        
     })
     if(data.length==1){
         res.send(data[0])
